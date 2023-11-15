@@ -1,0 +1,12 @@
+function setup () {
+  createCanvas(windowWidth, windowHeight);
+background (255);
+}
+  function draw() {
+    fill(random(256), random(256), random(256));
+   rect(138, 132, 41);
+   ellipse(413, 191, 213);
+    arc(213, 213, 150, 100, 50, 213, PIE);
+    arc(150, 150, 100, 200, 0, 100, OPEN);
+    arc(123, 50, 150, 100, 50, 100, CHORD);
+  }
